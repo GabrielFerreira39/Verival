@@ -1,0 +1,16 @@
+﻿Alunos: Arthur Antunes de Souza Both, Tomaz Culau Bettio, Guilherme de Moraes Machado Pereira Silva, Ricardo Graziato Caso, Gabriel Moraes Ferreira
+A classe "ServicoEstatisticas” calcula dois tipos de estatísticas sobre um conjunto de eventos: média, mediana e desvio padrão e maior ganho de performance. Para o cálculo da média, mediana e desvio padrão pode ser usadas abordagens diferentes. O cálculo do maior ganho de performance é fixo.
+Solicite ao professor o código destas classes e então faça o que se pede:
+a. Crie drivers de teste unitário para as classes EstatisticaNomal e EstatisticaDesconsidera. É necessário o uso de dubles neste caso? Que tipo de dubles?
+b. Crie um driver de teste unitário para a classe ServicoEstatisticas. É necessário algum tipo de duble neste caso? Que tipos de dubles?
+c. Crie um driver de teste para testar a integração da classe EstatisticaNormal com ServicoEstatisticas? É necessário algum tipo de duble neste caso? Que tipos de dubles?
+d. Crie um driver de teste para testar a integração da classe EstatisticaDesconsidera com ServicoEstatisticas? É necessário algum tipo de duble neste caso? Que tipos de dubles?
+
+
+Respostas:
+
+
+1. Não é necessário utilizar dublês neste caso, pois elas não possuem dependências.
+2. Não é necessário utilizar dublês neste caso, pois ela não possui dependências.
+3. O teste de integração não pode ter dublês, pois ele precisa verificar a comunicação entre as classes envolvidas. Entretanto, no material disponibilizado não há integração das classes solicitadas. 
+4. O teste de integração não pode ter dublês, pois ele precisa verificar a comunicação entre as classes envolvidas. Entretanto, no material disponibilizado não há integração das classes solicitadas.
